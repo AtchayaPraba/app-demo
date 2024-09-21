@@ -6,3 +6,8 @@ def app():
 
     # Add a file uploader
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+
+
+# Run the app
+if __name__ == "__main__":
+    app()
