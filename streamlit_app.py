@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.title('🎈 DEMO APP')
+# Define the Streamlit app
+def app():
+    st.title("Animal-10 Image Classification")
 
-st.info('This is a classifiction model !')
-
-st.write('Hello world!')
+    # Add a file uploader
+    uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
